@@ -1,7 +1,12 @@
-print("Witaj w quizie o Kociewiu!")
+print("Witaj w quizie o Minecrafcie!")
 
-playing = input("Do you want to play? ")
+playing = input("Czy masz ochotę zagrać? ")
 
-if playing != "yes":
+if playing != "Tak":
   quit()
   
+print("Super! Zagrajmy :)")
+
+answer = input("Na jakim poziomie można znaleźć diamenty?")
+if answer == "11":
+  print("Prawiłowa odpowiedź!")
