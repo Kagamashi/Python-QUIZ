@@ -1,13 +1,13 @@
-print("Witaj w quizie o Minecrafcie!")
+print("Witaj w quizie o League of Legends!")
 
 playing = input("Czy masz ochotę zagrać? ")
 
-if playing != "Tak":
+if playing != "Nie":
+  print("Super! Zagrajmy :)")
+else:
   quit()
-  
-print("Super! Zagrajmy :)")
 
-answer = input("Na jakim poziomie można znaleźć diamenty?")
+answer = input("")
 if answer == "11":
   print("Prawiłowa odpowiedź!")
 else: 
@@ -19,13 +19,13 @@ if answer == "2":
 else:
   print("Źle :(")
   
-answer = input("")
-if answer == "":
+answer = input("Jaki jest najrzadszy typ Zombie?")
+if answer == "Wieśniak w złotej zbroi":
   print(" !")
 else: 
   print("Źle :(")
 
-answer = input("")
+answer = input("Jaki przedmiot ")
 if answer == "":
   print("Prawidłowa odpowiedź!")
 else:
