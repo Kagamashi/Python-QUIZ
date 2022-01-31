@@ -18,3 +18,28 @@ if answer == "2":
   print("Prawidłowa odpowiedź!")
 else:
   print("Źle :(")
+  
+answer = input("")
+if answer == "":
+  print(" !")
+else: 
+  print("Źle :(")
+
+answer = input("")
+if answer == "":
+  print("Prawidłowa odpowiedź!")
+else:
+  print("Źle :(")
+
+answer = input("")
+if answer == "":
+  print("Prawiłowa odpowiedź!")
+else: 
+  print("Źle :(")
+
+answer = input("")
+if answer == "":
+  print("Prawidłowa odpowiedź!")
+else:
+  print("Źle :(")
+
