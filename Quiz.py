@@ -10,7 +10,11 @@ print("Super! Zagrajmy :)")
 answer = input("Na jakim poziomie można znaleźć diamenty?")
 if answer == "11":
   print("Prawiłowa odpowiedź!")
+else: 
+  print("Źle :(")
 
 answer = input("Ile najwięcej szmaragdów można spotkać obok siebie?")
 if answer == "2":
   print("Prawidłowa odpowiedź!")
+else:
+  print("Źle :(")
