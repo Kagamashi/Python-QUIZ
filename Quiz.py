@@ -1,4 +1,4 @@
-print("Witaj w quizie o League of Legends!")
+print("Witaj w quizie o uniwersum Wiedźmina!")
 
 playing = input("Czy masz ochotę zagrać? ")
 
@@ -7,13 +7,13 @@ if playing != "Nie":
 else:
   quit()
 
-answer = input("")
-if answer == "11":
+answer = input("Jak nazywał się koń Geralta?")
+if answer == "Płotka":
   print("Prawiłowa odpowiedź!")
 else: 
   print("Źle :(")
 
-answer = input("Ile najwięcej szmaragdów można spotkać obok siebie?")
+answer = input("Co oznaczało runiczne zaklęcie na mieczu Zoltana?")
 if answer == "2":
   print("Prawidłowa odpowiedź!")
 else:
@@ -42,4 +42,6 @@ if answer == "":
   print("Prawidłowa odpowiedź!")
 else:
   print("Źle :(")
+  
+count
 
