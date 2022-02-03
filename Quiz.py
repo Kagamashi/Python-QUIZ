@@ -2,7 +2,7 @@ print("Witaj w quizie o Telekomunikacji!")
 
 playing = input("Czy masz ochotę zagrać? ")
 
-if playing != "Nie":
+if playing != "Tak":
   print("Super! Zagrajmy :)")
 else:
   quit()
