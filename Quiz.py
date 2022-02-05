@@ -1,6 +1,6 @@
 print("Witaj w quizie o Telekomunikacji!")
 
-playing = input("Czy masz ochotę zagrać? ")
+playing = input("Czy masz ochotę zagra? ")
 
 if playing.lower() != "tak":
   quit()
