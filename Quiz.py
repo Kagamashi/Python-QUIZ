@@ -1,6 +1,6 @@
 print("Witaj w quizie o Telekomunikacji!")
 
-playing = input("Czy masz ochotę zagra? ")
+playing = input("Czy masz ochotę zagrać? ")
 
 if playing.lower() != "tak":
   quit()
@@ -9,7 +9,7 @@ else:
 
 answer = input("Co oznacza skrót FDD?")
 if answer.lower() == "frequency division duplex":
-  print("Pra.wiłowa odpowiedź!")
+  print("Prawidłowa odpowiedź!")
 else: 
   print("Źle :(")
 
