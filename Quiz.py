@@ -31,5 +31,3 @@ if answer.lower() == "base transceiver station":
 else:
   print("Źle :(")
 
-count
-
