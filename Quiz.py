@@ -35,4 +35,8 @@ if answer.lower() == "base transceiver station":
   score += 1
 else:
   print("Źle :(")
+  
+print("Odpowiedziałeś poprawnie na " + str(score) + " pytań")
+
+
 
