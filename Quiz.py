@@ -36,7 +36,7 @@ if answer.lower() == "base transceiver station":
 else:
   print("Źle :(")
   
-print("Odpowiedziałeś poprawnie na " + str(score) + " pytań")
-
+print("Odpowiedziałeś/aś poprawnie na " + str(score) + " pytań")
+print("Zdobyłeś/aś " + str((score / 5) * 100) + "%.")
 
 
